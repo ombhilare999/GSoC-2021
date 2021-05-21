@@ -4,3 +4,7 @@
 - Gone through GSoC proposal for quick recap of project.
 
 ### 19 May, 2021
+- Created a base repo for project: [BeagleWire](https://github.com/ombhilare999/BeagleWire)
+
+### 20 May, 2021
+- Studied about GPMC protocol.
