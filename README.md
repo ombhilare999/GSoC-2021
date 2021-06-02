@@ -4,6 +4,10 @@ sort: 1
 
 ## GSoC 2021
 
+{% include list.liquid all=true %}
+
+---
+
 ### Introduction
 
 - The BeagleWire is an FPGA development platform that has been designed for use with BeagleBone boards. BeagleWire is a cape on which there is an FPGA device (Lattice iCE40HX). The software support for BeagleWire is still in the development phase.
@@ -19,12 +23,7 @@ sort: 1
 - More PMODs will be interfaced with the BeagleWire.
 - Increase the Documentation and also add getting started guide for BeagleWire.
 
----
 
-[ [18-05-2021] Community Bonding Period Logs](Logs/week_0.1.md)
 
----
 
-[Blogs: Getting Started BeagleWire](Blogs/Linux_Kernel_for_FPGA.md)
 
-{% include list.liquid all=true %}
