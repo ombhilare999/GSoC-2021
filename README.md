@@ -1,3 +1,7 @@
+---
+sort: 1
+---
+
 ## GSoC 2021
 
 ### Introduction
@@ -22,3 +26,5 @@
 ---
 
 [Blogs: Getting Started BeagleWire](Blogs/Linux_Kernel_for_FPGA.md)
+
+{% include list.liquid all=true %}
