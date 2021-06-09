@@ -27,3 +27,10 @@
 ### 1 June, 2021
 - Studied about SPI Protocol, it's standard registers
 
+### 3 June, 2021
+- Practised Cocotb
+
+### 5 June, 2021
+- Practised Cocotb
+
+
