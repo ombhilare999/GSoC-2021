@@ -2,16 +2,15 @@
 
 ## 1) Flashing BeagleWire With New Image
 
-- First of all download this image for beagleboard site: [AM3358 Debian 10.3 2020-04-06 4GB SD IoT](https://debian.beagleboard.org/images/bone-debian-10.3-iot-armhf-2020-04-06-4gb.img.xz)
-- Find the micro-SD Card device (for example, mine is sdd). Type the following:
-    > mount
+- First of all download this image from beagleboard site: [AM3358 Debian 10.3 2020-04-06 4GB SD IoT](https://debian.beagleboard.org/images/bone-debian-10.3-iot-armhf-2020-04-06-4gb.img.xz)
+- Mount the sdcard
 - Decompress the .xz file
     > xz -d BBB*.xz
 - This gives you the image file: BBB*.img. Write the image to the memory card 
     > sudo dd if=./BBB*.img of=/dev/sdX
 
 ### Flashing eMMC:
-- To set up the standalone microSD image to automatically flash the eMMC on powerup. Login as debian (password = temppwd) and edit /boot/uEnv.txt with nano (sudo nano /boot/uEnv.txt) or your preferred editor.
+- To set up the standalone microSD image to automatically flash the eMMC on powerup. Login as debian (password = temppwd) and edit /boot/uEnv.txt `sudo nano /boot/uEnv.txt`
 - In /boot/uEnv.txt:
 ```
 ##enable BBB: eMMC Flasher:
