@@ -2,6 +2,6 @@
 sort: 2
 ---
 
-# Community Bonding period Logs
+# Weekly Logs
 
 {% include list.liquid all=true %}
