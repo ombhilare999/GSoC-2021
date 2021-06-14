@@ -1,10 +1,5 @@
 # Getting BBB Ready for BeagleWire
 
-.. toctree::
-   :maxdepth: 3
-
-   Getting_BBB_Ready_for_BeagleWire
-   
 ## BeagleWire:
 
 <p align="center">
