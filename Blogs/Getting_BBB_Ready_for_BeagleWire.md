@@ -80,32 +80,35 @@ sudo apt install linux-headers-$(uname -r)
 ## 4) Getting BeagleWire Software:
 ```
 git clone https://github.com/BeagleWire/BeagleWire 
+git checkout testing    #For initial period, later will be merged with master
 ```
 ---
 ---
 ## 5) Device Tree Overlay:
 - Device Tree is required for enabling SPI and GPMC.
-- Compile the dts file:
+
+- Compile the dts file and paste it to /lib/firmware
 ```
-dtc -O dtb -o DTS/BW-ICE40Cape-00A0.dtbo -b 0 -@ DTS/BW-ICE40Cape-00A0.dts
-```
-- Copy dtbo file to /lib/firmware on the BBB:
-```
-cp DTS/BW-ICE40Cape-00A0.dtbo /lib/firmware
+cd BeagleWire
+dtc -O dtb -o DTS/BW-ICE40Cape-00A0.dtbo -b 0 -@ DTS/BW-ICE40Cape-00A0.dts && sudo cp DTS/BW-ICE40Cape-00A0.dtbo /lib/firmware
 ```
 - Adding device tree Overlay in boot files
 ```
 sudo vim /boot/uEnv.txt
 ```
-- Find the following part:
+- Find the following part
 ```
 ###Additional custom capes
 #uboot_overlay_addr4=/lib/firmware/<file4>.dtbo
+
+enable_uboot_cape_universal=1
 ```
-- Instead add this:
+- Instead add this
 ```
 ###Additional custom capes
 uboot_overlay_addr4=/lib/firmware/BW-ICE40Cape-00A0.dtbo
+
+#enable_uboot_cape_universal=1
 ```
 - Reboot: `sudo reboot`
 
