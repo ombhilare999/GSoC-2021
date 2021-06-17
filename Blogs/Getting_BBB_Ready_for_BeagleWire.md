@@ -25,7 +25,7 @@
 - Change to:
 ```
 ##enable BBB: eMMC Flasher:
-cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.s
+cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
 ```
 - Optional, update Flasher Scripts:
 ```
@@ -62,7 +62,6 @@ sudo shutdown -r now
 ```
 ### Update distribution components
 ```
-cd /opt/scripts
 sudo apt update
 sudo apt upgrade
 ```
@@ -86,12 +85,6 @@ git clone https://github.com/BeagleWire/BeagleWire
 ---
 ## 5) Device Tree Overlay:
 - Device Tree is required for enabling SPI and GPMC.
-- Install the DTS compiler:
-```
-wget -c https://raw.githubusercontent.com/RobertCNelson/tools/master/pkgs/dtc.sh
-chmod +x dtc.sh
-./dtc.sh
-```
 - Compile the dts file:
 ```
 dtc -O dtb -o DTS/BW-ICE40Cape-00A0.dtbo -b 0 -@ DTS/BW-ICE40Cape-00A0.dts
