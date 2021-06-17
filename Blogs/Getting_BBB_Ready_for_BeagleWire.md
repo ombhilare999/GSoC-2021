@@ -101,6 +101,8 @@ dtc -O dtb -o DTS/BW-ICE40Cape-00A0.dtbo -b 0 -@ DTS/BW-ICE40Cape-00A0.dts && su
 ###Additional custom capes
 #uboot_overlay_addr4=/lib/firmware/<file4>.dtbo
 enable_uboot_cape_universal=1
+#disable_uboot_overlay_audio=1
+#disable_uboot_overlay_wireless=1
 ```
 
 - Instead add this
@@ -109,6 +111,8 @@ enable_uboot_cape_universal=1
 ###Additional custom capes
 uboot_overlay_addr4=/lib/firmware/BW-ICE40Cape-00A0.dtbo
 #enable_uboot_cape_universal=1
+disable_uboot_overlay_audio=1
+disable_uboot_overlay_wireless=1
 ```
 
 - Reboot: `sudo reboot`
