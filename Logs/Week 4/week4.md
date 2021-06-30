@@ -1,4 +1,4 @@
-## Week 3 (28 June - 5 July)
+## Week 4 (28 June - 5 July)
 
 - Created a wiki on BeagleWire Repo: [wiki](https://github.com/BeagleWire/BeagleWire/wiki)
 - Added Docs for individual examples: [Docs](https://beaglewire.github.io/Examples/)
