@@ -1,4 +1,4 @@
-## Week 5 (5 July - 12 July)
+## Week 5 (5 July - 16 July)
 
 - Made changes in the gpmc to wishbone wrapper and arm blink wishbone example after mentor's review.
 - Detailed Changes in PR thread: https://github.com/BeagleWire/BeagleWire/pull/3
