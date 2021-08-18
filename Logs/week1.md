@@ -1,4 +1,8 @@
-## Week 1 (7 June - 14 June)
+---
+sort: 2
+---
+
+# Week 1 (7 June - 14 June)
 
 - Prepared Slides for Intro video: [Slides](https://docs.google.com/presentation/d/1hXjH3R16zREbLScJDY29hHOQXxtDYksWk8p0BPUf9fc/edit#slide=id.g35f391192_00)
 

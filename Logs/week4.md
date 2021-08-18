@@ -1,4 +1,8 @@
-## Week 4 (28 June - 5 July)
+---
+sort: 5
+---
+
+# Week 4 (28 June - 5 July)
 
 - Created a wiki on BeagleWire Repo: [wiki](https://github.com/BeagleWire/BeagleWire/wiki)
 - Added Docs for individual examples: [Docs](https://beaglewire.github.io/Examples/)
@@ -6,7 +10,10 @@
 - Wrote testbench for the gpmc to wishbone wrapper, also tested both write and read conditions.
 - Waveforms of the simulation read and write tests:
 
-![image text](https://raw.githubusercontent.com/BeagleWire/BeagleWire/testing/images/gpmc_to_wishbone.png)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/BeagleWire/BeagleWire/master/assets/gpmc_to_wishbone.png">
+</p>
 
 - Tested GPMC to Wishbone Wrapper in the Hardware with arm blinks example.
 - Createad Led Controller with wishbone bus for arm blink

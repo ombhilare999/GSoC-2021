@@ -1,4 +1,8 @@
-## Community Bonding Period (18 May- 7 June)
+---
+sort: 1
+---
+
+# Community Bonding Period (18 May- 7 June)
 
 ### 18 May, 2021
 - Gone through GSoC proposal for quick recap of project.

@@ -1,7 +1,6 @@
 ---
-sort: 8
+sort: 3
 ---
 
-# Week 5
-
+# BeagleWire Examples
 {% include list.liquid all=true %}

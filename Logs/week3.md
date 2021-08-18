@@ -1,4 +1,8 @@
-## Week 3 (21 June - 28 June)
+---
+sort: 4
+---
+
+# Week 3 (21 June - 28 June)
 
 - Created a List on BeagleWire Repo: [Task/issue List](https://github.com/BeagleWire/BeagleWire/issues/1)
 
